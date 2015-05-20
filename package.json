@@ -1,0 +1,9 @@
+{
+    "name": "ecma6-eshop",
+    "version": "0.0.1",
+    "main": "server",
+    "dependencies": {
+        "hapi": "*",
+        "lout": "*"
+    }
+}
