@@ -1,7 +1,10 @@
 "use strict"
 
-module.exports = {
-    getAll: function() {
+class CategoryService{
+    constructor() {
+    }
+
+    getAll() {
       return new Promise(function(resolve, reject) {
           let categories = [
               { name: 'First category' },
@@ -10,4 +13,6 @@ module.exports = {
           resolve(categories);
       })
     }
-};
+}
+
+module.exports = CategoryService;

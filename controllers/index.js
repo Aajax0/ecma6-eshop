@@ -1,1 +1,5 @@
-exports.categories = require('./categoryController');
+"use strict"
+
+let CategoryController = require('./categoryController');
+
+exports.categories = new CategoryController();

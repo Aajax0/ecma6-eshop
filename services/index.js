@@ -1,1 +1,5 @@
-exports.categories = require('./categoryService');
+"use strict"
+
+let CategoryService = require('./categoryService');
+
+exports.categories = new CategoryService();
