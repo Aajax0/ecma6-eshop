@@ -9,13 +9,9 @@
 # How to run
 ```
 npm run start
-<<<<<<< HEAD
-````
+```
 To authenticate use username: 'john' and password: 'secret'.
 All requests except root require authentication (basic).
-=======
-```
->>>>>>> origin/master
 
 # How to run tests
 ```
@@ -43,10 +39,5 @@ Not all of the feature are currently implemented by iojs. Always keep your iojs 
 * chai https://github.com/chaijs/chai
 * bcryptjs https://github.com/dcodeIO/bcrypt.js
 
-<<<<<<< HEAD
-# License
-MIT
-=======
 # License 
 [MIT](LICENCE)
->>>>>>> origin/master
