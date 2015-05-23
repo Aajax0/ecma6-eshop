@@ -7,17 +7,19 @@
 - Install all dependencies using ````npm install````
 
 # How to run
-````
+```
 npm run start
-````
+```
 
 # How to run tests
-````
+```
 npm run test
-````
+```
 
-# Browse endpoint
+# Browse endpoints
+```
 http://localhost:8081/docs
+```
 
 #EMCAScript 6 features currently used
  - 'let' keyword
@@ -35,4 +37,4 @@ Not all of the feature are currently implemented by iojs. Always keep your iojs 
 * chai https://github.com/chaijs/chai
 
 # License 
-MIT
+[MIT](LICENCE)
