@@ -3,22 +3,29 @@
 # How to install
 - Install io.js: https://iojs.org
 - If have standard Node installed, use Node Version Manager to switch between Node and iojs, this article may be helpful: https://keymetrics.io/2015/02/03/installing-node-js-and-io-js-with-nvm/
-- If you don't want to use NVM you can always just make sure that standard Node is not in your %PATH% and that iojs is
+- If you don't want to use NVM you can always just make sure that standard Node is not in your PATH and that iojs is.
 - Install all dependencies using ````npm install````
 
 # How to run
-````
+```
 npm run start
+<<<<<<< HEAD
 ````
 To authenticate use username: 'john' and password: 'secret'.
 All requests except root require authentication (basic).
+=======
+```
+>>>>>>> origin/master
 
 # How to run tests
-````
+```
 npm run test
-````
+```
 
-To run the server install io.js (https://iojs.org) and then run using command: 'iojs --harmony_classes server.js'
+# Browse endpoints
+```
+http://localhost:8081/docs
+```
 
 #EMCAScript 6 features currently used
  - 'let' keyword
@@ -36,5 +43,10 @@ Not all of the feature are currently implemented by iojs. Always keep your iojs 
 * chai https://github.com/chaijs/chai
 * bcryptjs https://github.com/dcodeIO/bcrypt.js
 
+<<<<<<< HEAD
 # License
 MIT
+=======
+# License 
+[MIT](LICENCE)
+>>>>>>> origin/master
