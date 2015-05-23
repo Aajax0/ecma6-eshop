@@ -1,5 +1,7 @@
 "use strict"
 
-let CategoryService = require('./categoryService');
+var CategoryService = require('./categoryService');
+var ProductService = require('./productService');
 
-exports.categories = new CategoryService();
+module.exports.categories = new CategoryService();
+module.exports.products = new ProductService();

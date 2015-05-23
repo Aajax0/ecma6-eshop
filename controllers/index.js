@@ -1,5 +1,7 @@
 "use strict"
 
-let CategoryController = require('./categoryController');
+var CategoryController = require('./categoryController');
+var ProductController = require('./productController');
 
-exports.categories = new CategoryController();
+module.exports.categories = new CategoryController();
+module.exports.products = new ProductController();

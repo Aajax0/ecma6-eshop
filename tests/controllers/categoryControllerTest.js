@@ -11,18 +11,18 @@ describe('CategoryController', function(){
         expect(categoryController).to.not.be.undefined;
     });
 
-    describe('#getAll()', function(){
-        it('should accept "reply" argument and call it', function(done){
-            let request = {};
-            let reply = function() {
-                done();
-            };
-
-            let spy = chai.spy(reply);
-
-            categoryController.getAll(request, reply);
-            
-            expect(spy).to.have.been.called.once;
-        })
-    })
+    // describe('#getAll()', function(){
+    //     it('should accept "reply" argument and call it', function(done){
+    //         let request = {};
+    //         let reply = function() {
+    //             done();
+    //         };
+    //
+    //         let spy = chai.spy(reply);
+    //
+    //         categoryController.getAll(request, reply);
+    //
+    //         expect(spy).to.have.been.called.once;
+    //     })
+    // })
 });
