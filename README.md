@@ -1,9 +1,37 @@
-# ecma6-eshop
-eshop API sample project using io.js with ecmascript 6 features
+# Sample eshop backend written in ECMAScript 6 using io.js
+
+# How to install
+- Install io.js (https://iojs.org)
+- If have standard Node installed, use Node Version Manager to switch between Node and iojs, this article may be helpful: https://keymetrics.io/2015/02/03/installing-node-js-and-io-js-with-nvm/
+- If you don't want to use NVM you can always just make sure that standard Node is not in your %PATH% and that iojs is
+- Install all dependencies using ````npm install````
+
+# How to run
+````
+npm run start
+````
+
+# How to run tests
+````
+npm run test
+````
 
 To run the server install io.js (https://iojs.org) and then run using command: 'iojs --harmony_classes server.js'
 
-ecma6 features currently used:
+#EMCAScript 6 features currently used
  - 'let' keyword
  - Promise API
  - classes
+ - Map
+ 
+List of all ECMAScipt 6 features can be found here: http://es6-features.org/
+Not all of the feature are currently implemented by iojs. Always keep your iojs up to date. ES6 information can be found here: https://iojs.org/en/es6.html
+
+# Other software used
+* io.js https://github.com/nodejs/io.js
+* hapi https://github.com/hapijs/hapi
+* mocha https://github.com/mochajs/mocha
+* chai https://github.com/chaijs/chai
+
+# License 
+MIT
