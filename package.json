@@ -24,12 +24,15 @@
     "sample"
   ],
   "dependencies": {
+    "bcryptjs": "*",
     "hapi": "*",
+    "hapi-auth-basic": "*",
     "lout": "*"
   },
   "devDependencies": {
     "chai": "*",
     "chai-spies": "*",
+    "gulp": "*",
     "mocha": "*"
   },
   "license": "MIT"

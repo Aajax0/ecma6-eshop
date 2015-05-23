@@ -13,14 +13,17 @@ class Routes{
             method: 'GET',
             path: '/',
             handler: function (request, reply) {
-                reply('Welcome ecma6 eshop. At "/docs" you can explore all the available endpoints');
+                reply('Welcome ecma6 eshop. At "/docs" you can explore all the available endpoints. For authentication use username/password: john/secret');
             }
         });
 
         this.server.route({
             method: 'GET',
             path: '/categories/all',
-            handler: controllers.categories.getAll
+            handler: controllers.categories.getAll,
+            config: {
+                auth: 'simple'
+            }
         });
 
         this.server.route({
@@ -28,6 +31,7 @@ class Routes{
             path: '/products/bycategory',
             handler: controllers.products.getByCategory,
             config: {
+                auth: 'simple',
                 validate: validateId
             }
         });
@@ -37,6 +41,7 @@ class Routes{
             path: '/products/detail',
             handler: controllers.products.getDetail,
             config: {
+                auth: 'simple',
                 validate: validateId
             }
         });

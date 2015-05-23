@@ -25,7 +25,7 @@ class CategoryService{
     }
 
     getById(id){
-        var that = this;
+        let that = this;
         return new Promise(function(resolve, reject) {
             for (let i = 0; i < that._categories.length; i++) {
                 let category = that._categories[i];
@@ -38,7 +38,7 @@ class CategoryService{
     }
 
     getAll() {
-        var that = this;
+        let that = this;
         return new Promise(function(resolve, reject) {
             //covert array to map of ids
             let map = new Map();

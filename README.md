@@ -10,6 +10,8 @@
 ````
 npm run start
 ````
+To authenticate use username: 'john' and password: 'secret'.
+All requests except root require authentication (basic).
 
 # How to run tests
 ````
@@ -23,7 +25,7 @@ To run the server install io.js (https://iojs.org) and then run using command: '
  - Promise API
  - classes
  - Map
- 
+
 List of all ECMAScipt 6 features can be found here: http://es6-features.org/
 Not all of the feature are currently implemented by iojs. Always keep your iojs up to date. ES6 information can be found here: https://iojs.org/en/es6.html
 
@@ -32,6 +34,7 @@ Not all of the feature are currently implemented by iojs. Always keep your iojs 
 * hapi https://github.com/hapijs/hapi
 * mocha https://github.com/mochajs/mocha
 * chai https://github.com/chaijs/chai
+* bcryptjs https://github.com/dcodeIO/bcrypt.js
 
-# License 
+# License
 MIT

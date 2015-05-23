@@ -22,7 +22,7 @@ class ProductService{
     }
 
     getByCategory(category) {
-        var that = this;
+        let that = this;
         return new Promise(function(resolve, reject) {
             for (let i = 0; i < that._products.length; i++) {
                 let product = that._products[i];
