@@ -16,7 +16,8 @@ npm run start
 npm run test
 ````
 
-To run the server install io.js (https://iojs.org) and then run using command: 'iojs --harmony_classes server.js'
+# Browse endpoint
+http://localhost:8081/docs
 
 #EMCAScript 6 features currently used
  - 'let' keyword
