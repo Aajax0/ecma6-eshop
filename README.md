@@ -1,7 +1,7 @@
 # Sample eshop backend written in ECMAScript 6 using io.js
 
 # How to install
-- Install io.js (https://iojs.org)
+- Install io.js: https://iojs.org
 - If have standard Node installed, use Node Version Manager to switch between Node and iojs, this article may be helpful: https://keymetrics.io/2015/02/03/installing-node-js-and-io-js-with-nvm/
 - If you don't want to use NVM you can always just make sure that standard Node is not in your %PATH% and that iojs is
 - Install all dependencies using ````npm install````
